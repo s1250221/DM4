@@ -6,7 +6,7 @@ int main(){
   
   // name
   char str[8];
-  printf("Who are you?");
+  printf("Who are you?\n");
   scanf("%s",str);
   printf("Hello,%s\n",str);
   
@@ -26,6 +26,6 @@ int main(){
   printf("Heads: %d, Tails: %d\n",heads,tails);
   
   if(heads>tails) printf("You won\n");
-  else printf("You lost\n");
+  else printf("%s lost\n",str);
   return 0;
 }
